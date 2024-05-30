@@ -547,7 +547,7 @@ sydDOM.initInput = ({type,parent} = {}) =>{
             maxlength:'1',
             oninput:`inputting(this,${type},'${parent}')`,
             class:'gamePrimeInput',
-            // type:'number'
+            type:'number'
         }
     )
 }
