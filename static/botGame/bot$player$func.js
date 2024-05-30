@@ -210,7 +210,7 @@ initOk = () =>{
             switch(true)
             {
                 case checkRepeated():
-                    alert('Repeated codes are no allowed')
+                    alert('Repeated codes are not allowed')
                 break;
                 default:
                     const p2State = getState('p2');
