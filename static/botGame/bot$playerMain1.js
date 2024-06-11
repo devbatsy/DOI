@@ -122,7 +122,7 @@ sydDOM.p1 = () =>{
             class:'p1Move'
         },
         [
-            createElement('p',{style:'font-size:20px;text-transform:capitalize'},[preState(['p1','opponentCred','name'],'bot')]),
+            createElement('p',{style:'font-size:20px;text-transform:capitalize'},[preState(['p1','opponentCred','name'],'brenley')]),
             createElement('img',{style:'min-height:50px;min-width:50px;max-height:50px;max-width:50px;border-radius:50%;background:blue',src:`../assets/${preState(['p1','opponentCred','avatar'],'a2')}.png`}),
             // createElement(
             //     'div',
@@ -176,7 +176,7 @@ sydDOM.p2 = () =>{
             class:'p2Move'
         },
         [
-            createElement('p',{style:'font-size:20px;text-transform:capitalize'},['favour']),
+            createElement('p',{style:'font-size:20px;text-transform:capitalize'},['lucas']),
             createElement('img',{style:'min-height:50px;min-width:50px;max-height:50px;max-width:50px;border-radius:50%;background:blue',src:`../assets/a1.png`}),
             // createElement(
             //     'div',
